@@ -3513,7 +3513,7 @@ input, select, textarea {
 .lady {
   position: relative;
   left: -9em;
-  height: 19em;
+  width: 105vw;
   margin-bottom: -4em;
   margin-top: -6em;
 }
