@@ -1,1 +1,3 @@
-# beatris
+# Beatris
+
+Strona perfumerii Beatris 
