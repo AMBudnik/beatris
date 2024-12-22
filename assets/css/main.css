@@ -3512,8 +3512,8 @@ input, select, textarea {
 	}
 .lady {
   position: relative;
-  left: -9em;
-  width: 105vw;
-  margin-bottom: -4em;
-  margin-top: -6em;
+  left: 0em;
+  width: 100vw;
+  margin-bottom: 0em;
+  margin-top: 0em;
 }
