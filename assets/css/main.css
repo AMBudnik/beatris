@@ -3521,12 +3521,15 @@ input, select, textarea {
 }
 
 .perfume-base-btn {
-     background: #b20e3f;
+    background: #b20e3f;
     color: #fff;
     padding: 26px 40px;
-    font-size: 3vw;
+    font-size: 2.3vw;
     width: 100%;
     display: block;
-    border-radius: 55%;
     border: 2px solid darkred;
+}
+
+.perfume-base-btn:hover {
+    background: darkred;
 }
