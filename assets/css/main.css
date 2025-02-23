@@ -3519,3 +3519,11 @@ input, select, textarea {
 .logo-main {
 	width: 50vw;
 }
+
+.perfume-base-btn {
+	background: #b20e3f;
+	color: #fff
+	padding: 10% 10px;
+	margin-left: 10%;
+	font-size: 30px;
+}
