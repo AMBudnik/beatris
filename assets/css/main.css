@@ -3526,7 +3526,8 @@ input, select, textarea {
     padding: 26px 40px;
     font-size: 2em;
     margin-bottom: 1em;
-    width: 100%;
+    width: 80vw;
+	text-align: center;
     display: block;
     border: 2px solid darkred;
 }
