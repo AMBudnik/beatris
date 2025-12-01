@@ -2,4 +2,4 @@
 
 Strona perfumerii Beatris 
 
-https://https://ambudnik.github.io/beatris/
+https://ambudnik.github.io/beatris/
