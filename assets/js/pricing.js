@@ -1,10 +1,10 @@
 // Dane o perfumach (łatwo możesz tu zmienić ceny)
   const perfumeData = [
-    { name: "Perfumy 10ml", price: 16 },
-    { name: "Perfumy 16ml", price: 28 },
-    { name: "Perfumy 30ml", price: 39 },
+    { name: "Perfumy 10ml", price: 20 },
+    { name: "Perfumy 16ml", price: 30 },
+    { name: "Perfumy 30ml", price: 40 },
     { name: "Perfumy 50ml", price: 60 },
-    { name: "Perfumy 55ml", price: 75 },
+    { name: "Perfumy 55ml", price: 80 },
     { name: "Perfumy 100ml", price: 160 },
     { name: "Perfumy 108ml", price: 180 }
   ];
