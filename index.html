@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Beatris - Sprzątanie i Perfumy</title>
 <meta name="description" content="Beatris – profesjonalne sprzątanie mieszkań i domów w Gdyni oraz sprzedaż perfum inspirowanych.">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5XC782HHFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5XC782HHFV');
+</script>
 <style>
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
@@ -18,8 +26,12 @@
         display:flex; flex-wrap:wrap; gap:35px; align-items:flex-start;
     }
     #perfumy .col-6, #bizuteria .col-6 { flex:1 1 420px; }
+    #perfumy .perfume-notes-row { display:block; }
+    #perfumy .perfume-notes { width:100%; max-width:none; }
+    #perfumy .perfume-notes ul { max-width:none; }
     #lokal .col-4 { flex:1 1 280px; }
     .major h2 { margin-top:0; }
+    #perfumy .perfume-notes-row > div:last-child { width:100%; margin-top:25px; }
     .perfume-base-btn {
         display:inline-block; margin-top:25px; padding:12px 20px;
         background:#222; color:#fff; text-decoration:none; border-radius:6px;
@@ -230,12 +242,8 @@
 					
 					</div>
 
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium imp-medium">
-							
-						</div>
-
-						<div class="col-6 col-12-medium">
+					<div class="row gtr-150 perfume-notes-row">
+						<div class="perfume-notes">
 							<p>Znajdzie u nas każde nuty zapachowe.
 								Są to między innymi takie zapachy jak:</p>
 							<ul>
